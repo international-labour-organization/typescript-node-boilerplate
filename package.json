@@ -1,6 +1,10 @@
 {
   "name": "ilo-typescript-node-boilerplate",
   "version": "0.0.1",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.tsx",
+    "lint:fix": "npm run lint --fix"
+  },
   "lint-staged": {
     "src/**/*.{ts,tsx}": "npm run lint:fix"
   },
